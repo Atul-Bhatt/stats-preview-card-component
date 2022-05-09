@@ -1,0 +1,122 @@
+
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+p { color: white; font-size: 20px;}
+
+img {
+    border-radius: 0px 10px 10px 0px;
+    filter: contrast(1.75);
+}
+
+.overlay {
+    width: 540px;
+    height: 446px;
+    position: absolute;
+    background-color: hsla(277, 64%, 61%, 0.7);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card {
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    display : flex;
+    flex-direction: row-reverse;
+    border: solid hsl(233, 47%, 7%);
+    border-radius: 10px;
+}
+
+.cardtext {
+    width: 380px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.tagline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.moreinfo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flexstats {
+    display: flex;
+}
+
+.stats {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.statsgrey {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+    }
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+        width: 307px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(244, 38%, 16%);
+        margin: 20px;
+        border-radius: 10px;
+        width: 307px;
+    }
+
+    .cardtext {
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        width: 260px;
+    }
+
+    .tagline {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+
+    .flexstats {
+        display: flex;
+        flex-direction: column;
+        width: 90px;
+        padding-left: 70px;
+    }
+
+    .overlay {
+        width: 307px;
+        height: 255px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
