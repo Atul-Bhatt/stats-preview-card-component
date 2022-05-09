@@ -25,7 +25,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/Atul-Bhatt/qrcode)
-- Live Site URL: [Live Site URL](https://atul-bhatt.github.io/qrcode/)
+- Live Site URL: [Live Site URL](https://atul-bhatt.github.io/stats-preview-card-component/)
 
 ## My process
 
