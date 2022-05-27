@@ -5,7 +5,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -13,14 +12,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 
 ## Overview
-
-### Screenshot
-
-![](./screenshot.jpg)
 
 ### Links
 
@@ -54,5 +47,3 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - Website - [Atul Bhatt](https://www.your-site.com)
 - Frontend Mentor - [@Atul-Bhatt](https://www.frontendmentor.io/profile/Atul-Bhatt)
 - Twitter - [@sauteefricassee](https://www.twitter.com/sauteefricassee)
-
-## Acknowledgments
